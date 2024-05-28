@@ -8,6 +8,10 @@ import javax.swing.*;
 import java.awt.*;
 import java.util.Timer;
 
+/**
+ * Main GUI
+ */
+
 public class MainGUI extends JFrame {
     private SignInGUI signInGUI;
     private SignUpGUI signUpGUI;
@@ -25,7 +29,7 @@ public class MainGUI extends JFrame {
         welcomeLabel.setAlignmentX(Component.CENTER_ALIGNMENT);
 
         // 加载图片并添加到JLabel
-        ImageIcon imageIcon = new ImageIcon("src/storage/pictures/mainGUI.jpg");
+        ImageIcon imageIcon = new ImageIcon("src/main/resources/pictures/mainGUI.jpg");
         Image image = imageIcon.getImage();
         Image newimg = image.getScaledInstance(150, 120,  java.awt.Image.SCALE_SMOOTH); // scale it the smooth way
         imageIcon = new ImageIcon(newimg);
