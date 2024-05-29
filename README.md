@@ -1,0 +1,1 @@
+Use your familiar IDE to open the software package. It is recommended to use Maven to build the project, which can easily import the dependencies in pom.xml. Find the MainGUI.java file in the src/main/java/ui directory, run it, and you're done!
